@@ -368,19 +368,22 @@
                 <div class="col-md-6">
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CAMPO NOME -->                          
-                  <div class="form-group">         
+                  <div class="form-group">
+					<label title="Nome">Nome: </label>
                     <input class="form-control" name="nome" id="nome" type="text" placeholder="Digite seu nome" required="required" data-validation-required-message="Por favor, digite seu nome." title="Digite seu nome">
                     <p class="help-block text-danger"></p>
                   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CAMPO EMAIL -->                         
                   <div class="form-group">
+				  	<label title="E-mail">E-mail: </label>
                     <input class="form-control" name="email" id="email" type="email" placeholder="Digite seu e-mail " required="required" data-validation-required-message="Por favor, digite seu endereço de e-mail." title="Digite seu e-mail.">
                     <p class="help-block text-danger"></p>
                   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CAMPO TELEFONE -->                          
                   <div class="form-group">
+				  	<label title="Telefone">Telefone: </label>
                     <input class="form-control" name="fone" id="fone" type="tel" placeholder="Digite seu telefone" required="required" data-validation-required-message="Por favor, digite seu telefone."  title="Digite seu telefone.">
                     <p class="help-block text-danger"></p>
                   </div>
@@ -389,7 +392,8 @@
   <!-- CAMPO MENSAGEM -->                        
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem" required="required" data-validation-required-message="Por favor, digite sua mensagem." title="Digite sua mensagem."></textarea>
+				  	<label title="Mensagem">Mensagem: </label>
+                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem" required="required" maxlength="400" data-validation-required-message="Por favor, digite sua mensagem." title="Digite sua mensagem."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
