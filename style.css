@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    position: static !important;
+    top: 0 !important;
 }
 .scroll-color{
   color: #FFF !important;
@@ -155,7 +157,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("banner_inicial.jpg");
+  background-image: url("../_images/banner_inicial.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -439,4 +441,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 li a:hover{
   color: #04B404 !important;
+}
+
+#google_translate_element {
+    display: none;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
 }
