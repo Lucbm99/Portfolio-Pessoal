@@ -21,7 +21,7 @@
 		$corpo .= "Telefone = $fone \n"; 
 		$corpo .= "Mensagem = $mensagem \n";
 
-					"X-Mailer: PHP/".phpversion();
+		"X-Mailer: PHP/".phpversion();
 		mail($para, $assunto, $corpo);
 		echo 
 		"<script>
@@ -30,10 +30,20 @@
 		</script>";
 
     }else{
-        echo 'A verificação não foi autenticada, gentileza tentar novamente';
+        echo 
+		"<script>
+		alert('A verificação não foi autenticada, gentileza tentar novamente');
+		window.location.href='index.html';
+		</script>";
     }
  }else{
-    echo 'Você não selecionou o recaptcha';
+        echo 
+    	"<script>
+    	alert('Você não selecionou o recaptcha');
+    	window.location.href='index.html';
+    	</script>";
  }
- ?>
- 
+}
+
+?>
+
