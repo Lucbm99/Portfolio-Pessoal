@@ -1,13 +1,5 @@
 <?php	
- $captcha = $_POST['g-recaptcha-response'];
- if($captcha != ''){
-    $secreto = '6LdggDobAAAAAFajzDxvxSwuA-EHemVM-XS0hp8o';
-    $ip      = $_SERVER['REMOTE_ADDR'];
-    $var     = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secreto&response=$captcha&remoteip=$ip");
-    $resposta = json_decode($var, true);
-    if($resposta['success']){
-   
-        if(isset($_POST['nome']) && !empty($_POST['nome'])){
+	if(isset($_POST['nome']) && !empty($_POST['nome'])){
 		$nome=addslashes($_POST['nome']);
 		$email=addslashes($_POST['email']);
 		$fone=addslashes($_POST['fone']);
@@ -29,20 +21,6 @@
 		window.location.href='index.html';
 		</script>";
 
-    }else{
-        echo 
-		"<script>
-		alert('A verificação não foi autenticada, gentileza tentar novamente');
-		window.location.href='index.html';
-		</script>";
-    }
- }else{
-        echo 
-    	"<script>
-    	alert('Você não selecionou o recaptcha');
-    	window.location.href='index.html';
-    	</script>";
- }
 }
 
 ?>
