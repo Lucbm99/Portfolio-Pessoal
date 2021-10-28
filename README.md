@@ -51,6 +51,7 @@ E, ao clicar no arquivo index.html, o arquivo abrirá no seu navegador, com o si
 ## 📦 Status do Site
 
 🚧  Finalizado 🚧
+
 📦 Link de acesso: https://www.lucasbmarchiori.com.br 📦
 
 ## 🛠️ Feito com
