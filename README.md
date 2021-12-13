@@ -10,8 +10,11 @@ Para isso, você irá precisar basicamente ter um editor de código em sua máqu
 Links úteis: 
 
 VS Code: https://code.visualstudio.com/
+
 Git: https://git-scm.com/
+
 Sublime Text: https://www.sublimetext.com/
+
 
 ### 🔧 Como rodar o projeto? 
 Na página inicial do projeto, é necessário clicar no botão verde (CODE) e, copiar a URL disponibilizada pelo GitHub. No exemplo será utilizada a URL com HTTPS, que garante a segurança da operação. 
