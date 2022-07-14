@@ -28,6 +28,9 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
   
   <!------------------------------------------------------------------------------------------------------>
+  <!-- Captcha -->
+  <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+
   </head>
   <!-------------------------------------------------------------------------------------------------------->
   <body id="page-top">
@@ -102,8 +105,8 @@
                   <div class="card bg-primary text-white text-center p-3">
                     <blockquote class="blockquote mb-0">
                       <h5 class="card-title" title="Back-end/Banco de Dados">Back-end/Banco de Dados</h5>
-                      <p class="card-text" title="CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.">CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.</p>                                          
-		    </blockquote>
+                      <p class="card-text" title="CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.">CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.</p>                      
+                    </blockquote>
                   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CARD OUTROS -->
@@ -111,7 +114,7 @@
                     <blockquote class="blockquote mb-0">
                       <h5 class="card-title" title="Outros">Outros</h5>
                       <p class="card-text" title="Adobe Fireworks, Adobe Photoshop, Adobe XD, BitBucket, Figma, FluidUI, Git, GitHub, GitLab, Insomnia, NPM, Postman, Yarn">Adobe Fireworks, Adobe Photoshop, Adobe XD, BitBucket, Figma, FluidUI, Git, GitHub, GitLab, Insomnia, NPM, Postman, Yarn.</p>                  
-		    </blockquote>
+                      </blockquote>
                   </div>
                 </div>
               </div>
@@ -239,11 +242,27 @@
             <h4 title="Jokenpô">Jokenpô</h4>
             <p class="text-muted" title="Jogo Jokenpô">Jogo - Jokenpô.</p>
           </div>
+        </div>  
+  <!-------------------------------------------------------------------------------------------------------->
+  <!--Portfólio Marvel -->
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8" title="Abrir modal Angular" alt="Abrir modal Angular">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="marvel.jpg" alt="marvel" title="marvel">
+          </a>
+          <div class="portfolio-caption" title="marvel">
+            <h4 title="Marvel">Marvel</h4>
+            <p class="text-muted" title="Consumo de API - Marvel">Consumo API - Marvel</p>
+          </div>
         </div> 
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Portfólio Site Kalejados -->         
       <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8" title="Abrir modal Kalejados" alt="Abrir modal Kalejados">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9" title="Abrir modal Kalejados" alt="Abrir modal Kalejados">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -259,7 +278,7 @@
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Portfólio Página Padaria Nashville -->         
           <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9" title="Abrir modal Padaria Nashville" alt="abrir modal Padaria Nashville">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" title="Abrir modal Padaria Nashville" alt="abrir modal Padaria Nashville">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -274,20 +293,20 @@
           </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Portfólio site pet shop -->         
-          <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" title="Abrir modal Pet Shop Miami" alt="abrir modal Pet Shop Miami">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="petshop.jpg" alt="Pet shop" title="Pet Shop">
-            </a>
-            <div class="portfolio-caption" title="Pet Shop Miami">
-              <h4 title="Pet Shop Miami">Pet Shop</h4>
-              <p class="text-muted" title="Site Pet Shop Miami">Site - Pet Shop Miami.</p>
-            </div>
-          </div>
+          <!--<div class="col-md-3 col-sm-6 portfolio-item">-->
+          <!--  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" title="Abrir modal Pet Shop Miami" alt="abrir modal Pet Shop Miami">-->
+          <!--    <div class="portfolio-hover">-->
+          <!--      <div class="portfolio-hover-content">-->
+          <!--        <i class="fas fa-plus fa-3x"></i>-->
+          <!--      </div>-->
+          <!--    </div>-->
+          <!--    <img class="img-fluid" src="petshop.jpg" alt="Pet shop" title="Pet Shop">-->
+          <!--  </a>-->
+          <!--  <div class="portfolio-caption" title="Pet Shop Miami">-->
+          <!--    <h4 title="Pet Shop Miami">Pet Shop</h4>-->
+          <!--    <p class="text-muted" title="Site Pet Shop Miami">Site - Pet Shop Miami.</p>-->
+          <!--  </div>-->
+          <!--</div>-->
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Portfólio site placas mercosul -->         
           <div class="col-md-3 col-sm-6 portfolio-item">
@@ -367,24 +386,24 @@
             <h4 title="TrucoCounter">TrucoCounter</h4>
             <p class="text-muted" title="Placar - Jogo de Truco.">Placar - Jogo de Truco.</p>
           </div>
-        </div>  
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio - Verificador combustível -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal16" title="Abrir modal Verificador Combustível" alt="Abrir modal  Verificador Combustível">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="combustivel.jpg" alt="combustível" title="combustível">
-          </a>
-          <div class="portfolio-caption" title="combustível">
-            <h4 title="Verificador - Combustível">Verificador</h4>
-            <p class="text-muted" title="Calculadora">Calculadora - combustíveis</p>
-          </div>
         </div>
-	</div>
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- Portfólio - Verificador combustível -->
+          <div class="col-md-3 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal16" title="Abrir modal Verificador Combustível" alt="Abrir modal  Verificador Combustível">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="combustivel.jpg" alt="combustível" title="combustível">
+            </a>
+            <div class="portfolio-caption" title="Verificador">
+              <h4 title="Verificador - Combustível">Verificador</h4>
+              <p class="text-muted" title="Calculadora">Calculadora - combustíveis</p>
+            </div>
+          </div>
+      </div>
     </div>
   </section>
   <!-------------------------------------------------------------------------------------------------------->
@@ -405,21 +424,21 @@
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CAMPO NOME -->                          
                   <div class="form-group">
-		    <label title="Nome">Nome: </label>
+					<label title="Nome">Nome: </label>
                     <input class="form-control" name="nome" id="nome" type="text" placeholder="Digite seu nome" required title="Digite seu nome">
                     <p class="help-block text-danger"></p>
                   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CAMPO EMAIL -->                         
                   <div class="form-group">
-		    <label title="E-mail">E-mail: </label>
+				  	<label title="E-mail">E-mail: </label>
                     <input class="form-control" name="email" id="email" type="email" placeholder="Digite seu e-mail " required title="Digite seu e-mail.">
                     <p class="help-block text-danger"></p>
                   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- CAMPO TELEFONE -->                          
                   <div class="form-group">
-		    <label title="Telefone">Telefone: </label>
+				  	<label title="Telefone">Telefone: </label>
                     <input class="form-control" name="fone" id="fone" type="tel" placeholder="Digite seu telefone" required title="Digite seu telefone.">
                     <p class="help-block text-danger"></p>
                   </div>
@@ -428,11 +447,15 @@
   <!-- CAMPO MENSAGEM -->                        
                 <div class="col-md-6">
                   <div class="form-group">
-		    <label title="Mensagem">Mensagem: </label>
+				  	<label title="Mensagem">Mensagem: </label>
                     <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem" required="required" maxlength="400" title="Digite sua mensagem."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
+  <!-------------------------------------------------------------------------------------------------------->
+  <!-- Recaptcha --> 			
+				<div class="g-recaptcha" data-sitekey="6LdggDobAAAAAKklhvgBZIWLkR11vNnVuCMOsWN6"></div>
+
   <!-------------------------------------------------------------------------------------------------------->
   <!-- BOTÃO ENVIAR -->                        
                 <div class="clearfix"></div>
@@ -706,8 +729,35 @@
     </div>
   </div>
   <!-------------------------------------------------------------------------------------------------------->
+  <!-- Modal Marvel -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                  <h2 class="text-uppercase" title="Consumo de API - Marvel">Consumo de API - Marvel</h2>
+                  <p title="Página web que exibe detalhes de alguns personagens da Marvel, bem como seus eventos. Dados foram disponiblizados em uma modal, consumindo a API da Marvel.">Página web que exibe detalhes de alguns personagens da Marvel, bem como seus eventos. Dados foram disponiblizados em uma modal, consumindo a API da Marvel.<br>
+                  <br>
+                  <strong title="Tecnologias utilizadas: Angular">Tecnologias utilizadas:</strong> Angular<br><br>
+                  <a href="https://marvel-api-flax.vercel.app/" target="_blank" title="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button" title="fechar">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-------------------------------------------------------------------------------------------------------->
   <!-- Modal Kalejados -->
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -734,7 +784,7 @@
   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Modal PADARIA -->
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -763,32 +813,32 @@
     </div>
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Modal PET SHOP -->
-    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2 class="text-uppercase" title="Pet Shop Miami">Pet Shop Miami</h2><br>
-                  <p title="Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.">Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.<br>
-                  <br>
-                  <strong title="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas: </strong>Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br>
-                  <br>
-                  <a href="https://lucasbmarchiori.com.br/pet-shop/" target="_blank" title="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button" title="Fechar">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">-->
+    <!--  <div class="modal-dialog">-->
+    <!--    <div class="modal-content">-->
+    <!--      <div class="close-modal" data-dismiss="modal">-->
+    <!--        <div class="lr">-->
+    <!--          <div class="rl"></div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div class="container">-->
+    <!--        <div class="row">-->
+    <!--          <div class="col-lg-8 mx-auto">-->
+    <!--            <div class="modal-body">-->
+    <!--              <h2 class="text-uppercase" title="Pet Shop Miami">Pet Shop Miami</h2><br>-->
+    <!--              <p title="Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.">Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.<br>-->
+    <!--              <br>-->
+    <!--              <strong title="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas: </strong>Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br>-->
+    <!--              <br>-->
+    <!--              <a href="https://lucasbmarchiori.com.br/pet-shop/" target="_blank" title="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>-->
+    <!--              <button class="btn btn-primary" data-dismiss="modal" type="button" title="Fechar">Fechar</button>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</div>-->
 	<!-------------------------------------------------------------------------------------------------------->
     <!-- Modal Placas Mercosul -->
     <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
@@ -818,7 +868,7 @@
         </div>
       </div>
     </div>
-  <!-------------------------------------------------------------------------------------------------------->
+   <!-------------------------------------------------------------------------------------------------------->
   <!-- Modal sorveteria -->
   <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -937,7 +987,7 @@
       </div>
     </div>
   </div>
-   <!-------------------------------------------------------------------------------------------------------->
+  <!-------------------------------------------------------------------------------------------------------->
   <!-- Modal Combustível - Calculadora -->
   <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -969,8 +1019,8 @@
   </div>
   <!-------------------------------------------------------------------------------------------------------->
   <div id="google_translate_element" class="boxTradutor"></div>
-    <a href="javascript:trocarIdioma('en')"><img alt="ingles" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:50px;border-radius:50%;right: 20px;" src="united-kingdom.png"></a>
-    <a href="javascript:trocarIdioma('pt')"><img alt="portugues" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:10px;border-radius:50%;right: 20px;" src="brazil.png"></a>
+    <a href="javascript:trocarIdioma('en')"><img alt="ingles" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:50px;border-radius:50%;right: 20px;" src="_images/united-kingdom.png"></a>
+    <a href="javascript:trocarIdioma('pt')"><img alt="portugues" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:10px;border-radius:50%;right: 20px;" src="_images/brazil.png"></a>
     <!-- Alterar o src para o link onde esta a imagem da bandeira do idioma no seu servidor -->
 
   <!-- Arquivos JavaScript -->
