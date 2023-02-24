@@ -1,628 +1,617 @@
-  <!DOCTYPE html>
-  <html lang="pt-br">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -- Link Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145256142-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -- Link Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145256142-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-145256142-1');
-    </script>
+    gtag('config', 'UA-145256142-1');
+  </script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dev Front-End - Lucas Baradel Marchiori</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dev Front-End - Lucas Baradel Marchiori</title>
 
-  <!------------------------------------------------------------------------------------------------------>
-  <!-- Aquivos CSS e FAVICON -->
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="fontes-site/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" href="logo.ico">
-  <!-- Fontes -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
-  
-  <!------------------------------------------------------------------------------------------------------>
-  <!-- Captcha -->
-  <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+<!------------------------------------------------------------------------------------------------------>
+<!-- Aquivos CSS e FAVICON -->
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="fontes-site/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="logo.ico">
+<!-- Fontes -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
 
-  </head>
-  <!-------------------------------------------------------------------------------------------------------->
-  <body id="page-top">
-  <!-- Menu navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" aria-label="Lucas Baradel Marchiori">Lucas B. Marchiori</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger " href="#services" aria-label="Início">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio" aria-label="portifolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger " href="#contact"  aria-label="Contato">Contato</a>
-            </li>
-          </ul>
-        </div>
+<!------------------------------------------------------------------------------------------------------>
+<!-- Captcha -->
+<script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+
+</head>
+<!-------------------------------------------------------------------------------------------------------->
+<body id="page-top">
+<!-- Menu navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" aria-label="Lucas Baradel Marchiori">Lucas B. Marchiori</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger " href="#services" aria-label="Início">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio" aria-label="portifolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger " href="#contact"  aria-label="Contato">Contato</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Cabeçalho -->
-    <header class="masthead" alt="Imagem inicial">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading text-uppercase" aria-label="É um prazer receber você aqui!">Bem vindo(a)! <br> Sempre será uma grande honra sua visita!</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services" aria-label="Clique aqui para conhecer minhas habilidades!">Conheça algumas das minhas habilidades</a>
-        </div>
+    </div>
+  </nav>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Cabeçalho -->
+  <header class="masthead" alt="Imagem inicial">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-heading text-uppercase" aria-label="É um prazer receber você aqui!">Bem vindo(a)! <br> Sempre será uma grande honra sua visita!</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services" aria-label="Clique aqui para conhecer minhas habilidades!">Conheça algumas das minhas habilidades</a>
       </div>
-    </header>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Sessão serviços -->
-    <section class="page-section" id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="card">
-              <div class="card-body" aria-label="Meu nome é Lucas Baradel Marchiori e, sou uma pessoa aventureira que tem um gosto especial pela tecnologia. Conforme as tecnologias se aprimoram ao longo do tempo, faço o possível para estar sempre atualizado aos principais requisitos do mercado. As tecnologias utilizadas nesse site foram: Bootstrap, CSS3, HTML5, jQuery, Javascript, PHP.">
-                Meu nome é Lucas Baradel Marchiori e, sou uma pessoa aventureira que tem um gosto especial pela tecnologia. Conforme as tecnologias se aprimoram ao longo do tempo, faço o possível para estar sempre atualizado aos principais requisitos do mercado.
-                  <br>
-                  <br>
-                  <strong aria-label="As tecnologias utilizadas nesse site foram: Bootstrap, CSS3, HTML5, jQuery, Javascript, PHP.">As tecnologias utilizadas nesse site foram:</strong> Bootstrap, CSS3, HTML5, jQuery, Javascript, PHP.
-            </div>
-        </div>
-        <br>
-        <br>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- HABILIDADES -->
-            <h2 class="section-heading text-uppercase" aria-label="habilidades">Habilidades</h2>
-            <h3 class="section-subheading text-muted" aria-label="Algumas habilidades que possuo na àrea">Algumas habilidades que possuo na área: </h3>
-          </div>
-        </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CARDS -->
-        <div class="row text-center" aria-label="Habilidades">
-          <div class="card-columns">
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CARD FRONT -->
-                  <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                      <h5 class="card-title" aria-label="Front-end">Front-end</h5>
-                      <p class="card-text" aria-label="Angular, Bootstrap, CSS3, Design Responsivo, HTML5, JavaScript, React.js, SASS, Tailwind, WordPress.">Angular, Bootstrap, CSS3, Design Responsivo, HTML5, JavaScript, React.js, SASS, Tailwind, WordPress.</p>                  
-                    </blockquote>
-                  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CARD BACK -->
-                  <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                      <h5 class="card-title" aria-label="Back-end/Banco de Dados">Back-end/Banco de Dados</h5>
-                      <p class="card-text" aria-label="CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.">CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.</p>                      
-                    </blockquote>
-                  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CARD OUTROS -->
-                  <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                      <h5 class="card-title" aria-label="Outros">Outros</h5>
-                      <p class="card-text" aria-label="Adobe Fireworks, Adobe Photoshop, Adobe XD, BitBucket, Figma, FluidUI, Git, GitHub, GitLab, Insomnia, NPM, Postman, Yarn">Adobe Fireworks, Adobe Photoshop, Adobe XD, BitBucket, Figma, FluidUI, Git, GitHub, GitLab, Insomnia, NPM, Postman, Yarn.</p>                  
-                      </blockquote>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Seção dos meus trabalhos(Portfólio) -->
-    <section class="bg-light page-section" id="portfolio" aria-label="Portfolio pessoal.">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase" aria-label="Portfolio">Portfolio</h2>
-            <h3 class="section-subheading text-muted" aria-label="Protótipos, sites e jogos feitos por mim.">Alguns protótipos, sites e jogos desenvolvidos/feitos por mim.</h3>
-          </div>
-        </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio Página Advocacia Oakland -->
+    </div>
+  </header>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Sessão serviços -->
+  <section class="page-section" id="services">
+    <div class="container">
       <div class="row">
-          <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1" aria-label="abrir modal Advocacia Oakland">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+        <div class="col-lg-12 text-center">
+          <div class="card">
+            <div class="card-body" aria-label="Meu nome é Lucas Baradel Marchiori e, sou uma pessoa aventureira que tem um gosto especial pela tecnologia. Conforme as tecnologias se aprimoram ao longo do tempo, faço o possível para estar sempre atualizado aos principais requisitos do mercado. As tecnologias utilizadas nesse site foram: Bootstrap, CSS3, HTML5, jQuery, Javascript, PHP.">
+              Meu nome é Lucas Baradel Marchiori e, sou uma pessoa aventureira que tem um gosto especial pela tecnologia. Conforme as tecnologias se aprimoram ao longo do tempo, faço o possível para estar sempre atualizado aos principais requisitos do mercado.
+                <br>
+                <br>
+                <strong aria-label="As tecnologias utilizadas nesse site foram: Bootstrap, CSS3, HTML5, jQuery, Javascript, PHP.">As tecnologias utilizadas nesse site foram:</strong> Bootstrap, CSS3, HTML5, jQuery, Javascript, PHP.
+          </div>
+      </div>
+      <br>
+      <br>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- HABILIDADES -->
+          <h2 class="section-heading text-uppercase" aria-label="habilidades">Habilidades</h2>
+          <h3 class="section-subheading text-muted" aria-label="Algumas habilidades que possuo na àrea">Algumas habilidades que possuo na área: </h3>
+        </div>
+      </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CARDS -->
+      <div class="row text-center" aria-label="Habilidades">
+        <div class="card-columns">
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CARD FRONT -->
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <h5 class="card-title" aria-label="Front-end">Front-end</h5>
+                    <p class="card-text" aria-label="Angular, Bootstrap, CSS3, Design Responsivo, HTML5, JavaScript, React.js, SASS, Tailwind, WordPress.">Angular, Bootstrap, CSS3, Design Responsivo, HTML5, JavaScript, React.js, SASS, Tailwind, WordPress.</p>                  
+                  </blockquote>
+                </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CARD BACK -->
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <h5 class="card-title" aria-label="Back-end/Banco de Dados">Back-end/Banco de Dados</h5>
+                    <p class="card-text" aria-label="CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.">CodeIgniter, HeidiSQL, MySQL, Node.js, PHP.</p>                      
+                  </blockquote>
+                </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CARD OUTROS -->
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <h5 class="card-title" aria-label="Outros">Outros</h5>
+                    <p class="card-text" aria-label="Adobe Fireworks, Adobe Photoshop, Adobe XD, BitBucket, Figma, FluidUI, Git, GitHub, GitLab, Insomnia, NPM, Postman, Yarn">Adobe Fireworks, Adobe Photoshop, Adobe XD, BitBucket, Figma, FluidUI, Git, GitHub, GitLab, Insomnia, NPM, Postman, Yarn.</p>                  
+                    </blockquote>
                 </div>
               </div>
-              <img class="img-fluid" src="advocacia.jpg" alt="advocacia">
-            </a>
-            <div class="portfolio-caption" aria-label="Advocacia">
-              <h4 aria-label="Advocacia Oakland">Advocacia</h4>
-              <p class="text-muted" aria-label="Página Advocacia Oakland">Site - Advocacia Oakland.</p>
             </div>
           </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Biblia -->
+      </section>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Seção dos meus trabalhos(Portfólio) -->
+  <section class="bg-light page-section" id="portfolio" aria-label="Portfolio pessoal.">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" aria-label="Portfolio">Portfolio</h2>
+          <h3 class="section-subheading text-muted" aria-label="Protótipos, sites e jogos feitos por mim.">Alguns protótipos, sites e jogos desenvolvidos/feitos por mim.</h3>
+        </div>
+      </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio Página Advocacia Oakland -->
+    <div class="row">
         <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2" aria-label="Abrir modal Bíblia">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1" aria-label="abrir modal Advocacia Oakland">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="biblia.jpg" alt="Bíblia">
+            <img class="img-fluid" src="advocacia.jpg" alt="advocacia">
           </a>
-          <div class="portfolio-caption" aria-label="Bíblia">
-            <h4 aria-label="Bíblia">Bíblia</h4>
-            <p class="text-muted" aria-label="Bíblia API">Bíblia API.</p>
+          <div class="portfolio-caption" aria-label="Advocacia">
+            <h4 aria-label="Advocacia Oakland">Advocacia</h4>
+            <p class="text-muted" aria-label="Página Advocacia Oakland">Site - Advocacia Oakland.</p>
           </div>
-        </div>   
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Cafeteria Seattle -->
+        </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Biblia -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2" aria-label="Abrir modal Bíblia">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="biblia.jpg" alt="Bíblia">
+        </a>
+        <div class="portfolio-caption" aria-label="Bíblia">
+          <h4 aria-label="Bíblia">Bíblia</h4>
+          <p class="text-muted" aria-label="Bíblia API">Bíblia API.</p>
+        </div>
+      </div>   
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Cafeteria Seattle -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3" aria-label="Abrir modal Cafeteria Seattle">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="cafeteria.jpg" alt="Cafeteria">
+        </a>
+        <div class="portfolio-caption" aria-label="Cafeteria">
+          <h4 aria-label="Cafeteria">Cafeteria</h4>
+          <p class="text-muted" aria-label="Site Cafeteria Seattle">Site - Cafeteria Seattle.</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Calculadora -->
+<div class="col-md-3 col-sm-6 portfolio-item">
+  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4" aria-label="Abrir modal Calculadora">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <i class="fas fa-plus fa-3x"></i>
+      </div>
+    </div>
+    <img class="img-fluid" src="calculadora.jpg" alt="calculadora">
+  </a>
+  <div class="portfolio-caption" aria-label="Calculadora">
+    <h4 aria-label="Calculadora">Calculadora</h4>
+    <p class="text-muted" aria-label="Calculadora">Calculadora</p>
+  </div>
+</div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Calculadora IMC -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5" aria-label="Abrir modal Calculadora IMC">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="balanca.jpg" alt="calculadora">
+        </a>
+        <div class="portfolio-caption" aria-label="Calculadora IMC">
+          <h4 aria-label="Calculadora IMC">Calculadora IMC</h4>
+          <p class="text-muted" aria-label="Calculadora IMC">Calculadora IMC</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Figuras Geométricas -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6" aria-label="Abrir modal Calculadora Figuras Geométricas">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="geometria.jpg" alt="figuras">
+        </a>
+        <div class="portfolio-caption" aria-label="Calculadora Figuras Geométricas">
+          <h4 aria-label="Calculadora Figuras Geométricas">Geometria</h4>
+          <p class="text-muted" aria-label="Calculadora">Calculadora</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Ilera Saúde -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7" aria-label="Abrir modal Ilera">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="ilera.png" alt="ilera">
+        </a>
+        <div class="portfolio-caption" aria-label="Ilera">
+          <h4 aria-label="Site - Ilera Saúde">Ilera Saúde</h4>
+          <p class="text-muted" aria-label="Site - Ilera Saúde">Site - Ilera Saúde</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Jokenpo -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8" aria-label="Abrir modal Jokenpo">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="jokenpo.jpg" alt="jokenpo">
+        </a>
+        <div class="portfolio-caption" aria-label="jokenpo">
+          <h4 aria-label="Jokenpô">Jokenpô</h4>
+          <p class="text-muted" aria-label="Jogo Jokenpô">Jogo - Jokenpô.</p>
+        </div>
+      </div>  
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Livia Bel -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9" aria-label="Abrir modal Livia Bel">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="liviabel.jpeg" alt="liviabel">
+        </a>
+        <div class="portfolio-caption" aria-label="liviabel">
+          <h4 aria-label="Livia Bel">Livia Bel</h4>
+          <p class="text-muted" aria-label="Site - Livia Bel">Site - Livia Bel</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!--Portfólio Marvel -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" aria-label="Abrir modal Marvel">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="marvel.jpg" alt="marvel">
+        </a>
+        <div class="portfolio-caption" aria-label="marvel">
+          <h4 aria-label="Marvel">Marvel</h4>
+          <p class="text-muted" aria-label="Consumo de API - Marvel">Consumo API - Marvel</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio Site Kalejados -->         
+    <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11" aria-label="Abrir modal Kalejados">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="kalejados.jpg" alt="Kalejados">
+        </a>
+        <div class="portfolio-caption" aria-label="Os Kalejados">
+          <h4 aria-label="Os Kalejados">Os Kalejados</h4>
+          <p class="text-muted" aria-label="Página sobre eventos de bike">Site - Os Kalejados.</p>
+        </div>
+      </div> 
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio Página Padaria Nashville -->         
         <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3" aria-label="Abrir modal Cafeteria Seattle">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12" aria-label="Abrir modal Padaria Nashville">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="cafeteria.jpg" alt="Cafeteria">
+            <img class="img-fluid" src="padaria.jpg" alt="Padaria">
           </a>
-          <div class="portfolio-caption" aria-label="Cafeteria">
-            <h4 aria-label="Cafeteria">Cafeteria</h4>
-            <p class="text-muted" aria-label="Site Cafeteria Seattle">Site - Cafeteria Seattle.</p>
+          <div class="portfolio-caption" aria-label="Padaria Nashville">
+            <h4 aria-label="Padaria">Padaria</h4>
+            <p class="text-muted" aria-label="Página sobre Padaria">Site - Padaria Nashville.</p>
           </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Calculadora -->
+        </div>
+<!-------------------------------------------------------------------------------------------------------->  
+<!-- Portfólio pesquisador de cep -->         
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13" aria-label="Abrir modal pesquisa CEP">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="cep.jpg" alt="CEP">
+          </a>
+          <div class="portfolio-caption" aria-label="Pesquisa CEP">
+            <h4 aria-label="Pesquisa CEP">Pesquisa CEP</h4>
+            <p class="text-muted" aria-label="Busca de CEP">Pesquisador de endereços</p>
+          </div>
+        </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio site pet shop -->         
+        <!--<div class="col-md-3 col-sm-6 portfolio-item">-->
+        <!--  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" aria-label="Abrir modal Pet Shop Miami" alt="abrir modal Pet Shop Miami">-->
+        <!--    <div class="portfolio-hover">-->
+        <!--      <div class="portfolio-hover-content">-->
+        <!--        <i class="fas fa-plus fa-3x"></i>-->
+        <!--      </div>-->
+        <!--    </div>-->
+        <!--    <img class="img-fluid" src="petshop.jpg" alt="Pet shop" aria-label="Pet Shop">-->
+        <!--  </a>-->
+        <!--  <div class="portfolio-caption" aria-label="Pet Shop Miami">-->
+        <!--    <h4 aria-label="Pet Shop Miami">Pet Shop</h4>-->
+        <!--    <p class="text-muted" aria-label="Site Pet Shop Miami">Site - Pet Shop Miami.</p>-->
+        <!--  </div>
+        <</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio site placas mercosul -->         
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14" aria-label="Abrir modal Placas Mercosul">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="placas.jpg" alt="Placas Mercosul">
+          </a>
+          <div class="portfolio-caption" aria-label="Placas Mercosul">
+            <h4 aria-label="Placas Mercosul">Placas Mercosul</h4>
+            <p class="text-muted" aria-label="Placas Mercosul - Gerador">Placas Mercosul - Gerador.</p>
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------->
+        <!-- Portfólio Receitas -->
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal15" aria-label="Abrir modal receitas">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="receitas.jpg" alt="receitas">
+          </a>
+          <div class="portfolio-caption" aria-label="receitas">
+            <h4 aria-label="Receitas">Receitas</h4>
+            <p class="text-muted" aria-label="API - Dados Receitas.">API - Dados Receitas.</p>
+          </div>
+        </div>
+      <!-------------------------------------------------------------------------------------------------------->
+      <!-- Portfólio Banco de Dados Sorveteria -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal16" aria-label="Abrir modal sorveteria">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="sorveteria.jpg" alt="sorveteria">
+        </a>
+        <div class="portfolio-caption" aria-label="sorveteria">
+          <h4 aria-label="Sorveteria">Sorveteria</h4>
+          <p class="text-muted" aria-label="Banco de dados - Sorveteria">Banco de dados.</p>
+        </div>
+      </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio SOS City -->
+      <div class="col-md-3 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal17" aria-label="Abrir modal SOS City">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="soscity.jpg" alt="soscity">
+        </a>
+        <div class="portfolio-caption" aria-label="soscity">
+          <h4 aria-label="SOS CITY">SOS City</h4>
+          <p class="text-muted" aria-label="Aplicativo - SOS City">Aplicativo - SOS City.</p>
+        </div>
+      </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio Times NFL -->
   <div class="col-md-3 col-sm-6 portfolio-item">
-    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4" aria-label="Abrir modal Calculadora">
+    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal18" aria-label="Abrir modal Times NFL">
       <div class="portfolio-hover">
         <div class="portfolio-hover-content">
           <i class="fas fa-plus fa-3x"></i>
         </div>
       </div>
-      <img class="img-fluid" src="calculadora.jpg" alt="calculadora">
+      <img class="img-fluid" src="nfl.jpg" alt="Futebol americano">
     </a>
-    <div class="portfolio-caption" aria-label="Calculadora">
-      <h4 aria-label="Calculadora">Calculadora</h4>
-      <p class="text-muted" aria-label="Calculadora">Calculadora</p>
+    <div class="portfolio-caption" aria-label="Times NFL">
+      <h4 aria-label="Times NFL">Times NFL</h4>
+      <p class="text-muted" aria-label="Lista de tarefas">Lista de times</p>
     </div>
-  </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Calculadora IMC -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5" aria-label="Abrir modal Calculadora IMC">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="balanca.jpg" alt="calculadora">
-          </a>
-          <div class="portfolio-caption" aria-label="Calculadora IMC">
-            <h4 aria-label="Calculadora IMC">Calculadora IMC</h4>
-            <p class="text-muted" aria-label="Calculadora IMC">Calculadora IMC</p>
-          </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Figuras Geométricas -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6" aria-label="Abrir modal Calculadora Figuras Geométricas">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="geometria.jpg" alt="figuras">
-          </a>
-          <div class="portfolio-caption" aria-label="Calculadora Figuras Geométricas">
-            <h4 aria-label="Calculadora Figuras Geométricas">Geometria</h4>
-            <p class="text-muted" aria-label="Calculadora">Calculadora</p>
-          </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Ilera Saúde -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7" aria-label="Abrir modal Ilera">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="ilera.png" alt="ilera">
-          </a>
-          <div class="portfolio-caption" aria-label="Ilera">
-            <h4 aria-label="Site - Ilera Saúde">Ilera Saúde</h4>
-            <p class="text-muted" aria-label="Site - Ilera Saúde">Site - Ilera Saúde</p>
-          </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Jokenpo -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8" aria-label="Abrir modal Jokenpo">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="jokenpo.jpg" alt="jokenpo">
-          </a>
-          <div class="portfolio-caption" aria-label="jokenpo">
-            <h4 aria-label="Jokenpô">Jokenpô</h4>
-            <p class="text-muted" aria-label="Jogo Jokenpô">Jogo - Jokenpô.</p>
-          </div>
-        </div>  
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Livia Bel -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9" aria-label="Abrir modal Livia Bel">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="liviabel.jpeg" alt="liviabel">
-          </a>
-          <div class="portfolio-caption" aria-label="liviabel">
-            <h4 aria-label="Livia Bel">Livia Bel</h4>
-            <p class="text-muted" aria-label="Site - Livia Bel">Site - Livia Bel</p>
-          </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Portfólio Marvel -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" aria-label="Abrir modal Marvel">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="marvel.jpg" alt="marvel">
-          </a>
-          <div class="portfolio-caption" aria-label="marvel">
-            <h4 aria-label="Marvel">Marvel</h4>
-            <p class="text-muted" aria-label="Consumo de API - Marvel">Consumo API - Marvel</p>
-          </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio Site Kalejados -->         
+  </div>  
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio ToDo List -->
+  <div class="col-md-3 col-sm-6 portfolio-item">
+    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal19" aria-label="Abrir modal ToDo List">
+      <div class="portfolio-hover">
+        <div class="portfolio-hover-content">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+      </div>
+      <img class="img-fluid" src="todo.jpg" alt="ToDo List">
+    </a>
+    <div class="portfolio-caption" aria-label="ToDo List">
+      <h4 aria-label="ToDo List">ToDo List</h4>
+      <p class="text-muted" aria-label="Lista de tarefas">Lista de tarefas</p>
+    </div>
+  </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Portfólio Truco Counter -->
       <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11" aria-label="Abrir modal Kalejados">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="kalejados.jpg" alt="Kalejados">
-          </a>
-          <div class="portfolio-caption" aria-label="Os Kalejados">
-            <h4 aria-label="Os Kalejados">Os Kalejados</h4>
-            <p class="text-muted" aria-label="Página sobre eventos de bike">Site - Os Kalejados.</p>
-          </div>
-        </div> 
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio Página Padaria Nashville -->         
-          <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12" aria-label="Abrir modal Padaria Nashville">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="padaria.jpg" alt="Padaria">
-            </a>
-            <div class="portfolio-caption" aria-label="Padaria Nashville">
-              <h4 aria-label="Padaria">Padaria</h4>
-              <p class="text-muted" aria-label="Página sobre Padaria">Site - Padaria Nashville.</p>
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal20" aria-label="Abrir modal Truco">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-  <!-------------------------------------------------------------------------------------------------------->  
-  <!-- Portfólio pesquisador de cep -->         
-          <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13" aria-label="Abrir modal pesquisa CEP">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="cep.jpg" alt="CEP">
-            </a>
-            <div class="portfolio-caption" aria-label="Pesquisa CEP">
-              <h4 aria-label="Pesquisa CEP">Pesquisa CEP</h4>
-              <p class="text-muted" aria-label="Busca de CEP">Pesquisador de endereços</p>
-            </div>
-          </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio site pet shop -->         
-          <!--<div class="col-md-3 col-sm-6 portfolio-item">-->
-          <!--  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10" aria-label="Abrir modal Pet Shop Miami" alt="abrir modal Pet Shop Miami">-->
-          <!--    <div class="portfolio-hover">-->
-          <!--      <div class="portfolio-hover-content">-->
-          <!--        <i class="fas fa-plus fa-3x"></i>-->
-          <!--      </div>-->
-          <!--    </div>-->
-          <!--    <img class="img-fluid" src="_images/petshop.jpg" alt="Pet shop" aria-label="Pet Shop">-->
-          <!--  </a>-->
-          <!--  <div class="portfolio-caption" aria-label="Pet Shop Miami">-->
-          <!--    <h4 aria-label="Pet Shop Miami">Pet Shop</h4>-->
-          <!--    <p class="text-muted" aria-label="Site Pet Shop Miami">Site - Pet Shop Miami.</p>-->
-          <!--  </div>
-          <</div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio site placas mercosul -->         
-          <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14" aria-label="Abrir modal Placas Mercosul">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="placas.jpg" alt="Placas Mercosul">
-            </a>
-            <div class="portfolio-caption" aria-label="Placas Mercosul">
-              <h4 aria-label="Placas Mercosul">Placas Mercosul</h4>
-              <p class="text-muted" aria-label="Placas Mercosul - Gerador">Placas Mercosul - Gerador.</p>
-            </div>
-          </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio Banco de Dados Sorveteria -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal15" aria-label="Abrir modal sorveteria">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="sorveteria.jpg" alt="sorveteria">
-          </a>
-          <div class="portfolio-caption" aria-label="sorveteria">
-            <h4 aria-label="Sorveteria">Sorveteria</h4>
-            <p class="text-muted" aria-label="Banco de dados - Sorveteria">Banco de dados.</p>
-          </div>
+          <img class="img-fluid" src="truco.jpg" alt="truco">
+        </a>
+        <div class="portfolio-caption" aria-label="truco">
+          <h4 aria-label="TrucoCounter">TrucoCounter</h4>
+          <p class="text-muted" aria-label="Placar - Jogo de Truco.">Placar - Jogo de Truco.</p>
         </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio SOS City -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal16" aria-label="Abrir modal SOS City">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="soscity.jpg" alt="soscity">
-          </a>
-          <div class="portfolio-caption" aria-label="soscity">
-            <h4 aria-label="SOS CITY">SOS City</h4>
-            <p class="text-muted" aria-label="Aplicativo - SOS City">Aplicativo - SOS City.</p>
-          </div>
-        </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio Times NFL -->
-    <div class="col-md-3 col-sm-6 portfolio-item">
-      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal17" aria-label="Abrir modal Times NFL">
-        <div class="portfolio-hover">
-          <div class="portfolio-hover-content">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
-        </div>
-        <img class="img-fluid" src="nfl.jpg" alt="Futebol americano">
-      </a>
-      <div class="portfolio-caption" aria-label="Times NFL">
-        <h4 aria-label="Times NFL">Times NFL</h4>
-        <p class="text-muted" aria-label="Lista de tarefas">Lista de times</p>
       </div>
-    </div>  
   <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio ToDo List -->
-    <div class="col-md-3 col-sm-6 portfolio-item">
-      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal18" aria-label="Abrir modal ToDo List">
-        <div class="portfolio-hover">
-          <div class="portfolio-hover-content">
-            <i class="fas fa-plus fa-3x"></i>
+  <!-- Portfólio - Verificador combustível -->
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal21" aria-label="Abrir modal Verificador Combustível">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="combustivel.jpg" alt="combustível">
+          </a>
+          <div class="portfolio-caption" aria-label="Verificador">
+            <h4 aria-label="Verificador - Combustível">Verificador</h4>
+            <p class="text-muted" aria-label="Calculadora">Calculadora - combustíveis</p>
           </div>
         </div>
-        <img class="img-fluid" src="todo.jpg" alt="ToDo List">
-      </a>
-      <div class="portfolio-caption" aria-label="ToDo List">
-        <h4 aria-label="ToDo List">ToDo List</h4>
-        <p class="text-muted" aria-label="Lista de tarefas">Lista de tarefas</p>
-      </div>
     </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Portfólio Truco Counter -->
-        <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal19" aria-label="Abrir modal Truco">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="truco.jpg" alt="truco">
-          </a>
-          <div class="portfolio-caption" aria-label="truco">
-            <h4 aria-label="TrucoCounter">TrucoCounter</h4>
-            <p class="text-muted" aria-label="Placar - Jogo de Truco.">Placar - Jogo de Truco.</p>
-          </div>
+  </div>
+</section>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Formulário de Contato -->
+  <section class="page-section" id="contact" aria-label="Contato">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" aria-label="Ficou com alguma dúvida?">Deseja fazer parcerias ou se interessou pelo meu perfil?</h2>
+          <h3 class="section-subheading text-muted" aria-label="Mande uma mensagem no Formulário abaixo e responderei ela assim que possível.">Mande-me uma mensagem e retornarei ela o mais rápido possível: </h3>
         </div>
-    <!-------------------------------------------------------------------------------------------------------->
-    <!-- Portfólio - Verificador combustível -->
-          <div class="col-md-3 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal20" aria-label="Abrir modal Verificador Combustível">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form method="post" id="contactForm" name="sentMessage" action="enviarEmail.php">
+            <div class="row">
+              <div class="col-md-6">
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CAMPO NOME -->                          
+                <div class="form-group">
+        <label aria-label="Nome">Nome: </label>
+                  <input class="form-control" name="nome" id="nome" type="text" placeholder="Digite seu nome" required aria-label="Digite seu nome">
+                  <p class="help-block text-danger"></p>
+                </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CAMPO EMAIL -->                         
+                <div class="form-group">
+          <label aria-label="E-mail">E-mail: </label>
+                  <input class="form-control" name="email" id="email" type="email" placeholder="Digite seu e-mail " required aria-label="Digite seu e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CAMPO TELEFONE -->                          
+                <div class="form-group">
+          <label aria-label="Telefone">Telefone: </label>
+                  <input class="form-control" name="fone" id="fone" type="tel" placeholder="Digite seu telefone" required aria-label="Digite seu telefone.">
+                  <p class="help-block text-danger"></p>
                 </div>
               </div>
-              <img class="img-fluid" src="combustivel.jpg" alt="combustível">
-            </a>
-            <div class="portfolio-caption" aria-label="Verificador">
-              <h4 aria-label="Verificador - Combustível">Verificador</h4>
-              <p class="text-muted" aria-label="Calculadora">Calculadora - combustíveis</p>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- CAMPO MENSAGEM -->                        
+              <div class="col-md-6">
+                <div class="form-group">
+          <label aria-label="Mensagem">Mensagem: </label>
+                  <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem" required="required" maxlength="400" aria-label="Digite sua mensagem."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Recaptcha --> 			
+      <div class="g-recaptcha" data-sitekey="6LdggDobAAAAAKklhvgBZIWLkR11vNnVuCMOsWN6"></div>
+
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO ENVIAR -->                        
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" aria-label="Enviar Formulário">Enviar</button>
+              </div>
             </div>
-          </div>
+          </form>
+        </div>
       </div>
     </div>
   </section>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Formulário de Contato -->
-    <section class="page-section" id="contact" aria-label="Contato">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase" aria-label="Ficou com alguma dúvida?">Deseja fazer parcerias ou se interessou pelo meu perfil?</h2>
-            <h3 class="section-subheading text-muted" aria-label="Mande uma mensagem no Formulário abaixo e responderei ela assim que possível.">Mande-me uma mensagem e retornarei ela o mais rápido possível: </h3>
-          </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <span class="copyright" aria-label="Desenvolvido por Lucas Baradel Marchiori">Desenvolvido por Lucas Baradel Marchiori.</span>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form method="post" id="contactForm" name="sentMessage" action="enviarEmail.php">
-              <div class="row">
-                <div class="col-md-6">
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CAMPO NOME -->                          
-                  <div class="form-group">
-					<label aria-label="Nome">Nome: </label>
-                    <input class="form-control" name="nome" id="nome" type="text" placeholder="Digite seu nome" required aria-label="Digite seu nome">
-                    <p class="help-block text-danger"></p>
-                  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CAMPO EMAIL -->                         
-                  <div class="form-group">
-				  	<label aria-label="E-mail">E-mail: </label>
-                    <input class="form-control" name="email" id="email" type="email" placeholder="Digite seu e-mail " required aria-label="Digite seu e-mail.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CAMPO TELEFONE -->                          
-                  <div class="form-group">
-				  	<label aria-label="Telefone">Telefone: </label>
-                    <input class="form-control" name="fone" id="fone" type="tel" placeholder="Digite seu telefone" required aria-label="Digite seu telefone.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- CAMPO MENSAGEM -->                        
-                <div class="col-md-6">
-                  <div class="form-group">
-				  	<label aria-label="Mensagem">Mensagem: </label>
-                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem" required="required" maxlength="400" aria-label="Digite sua mensagem."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Recaptcha --> 			
-				<div class="g-recaptcha" data-sitekey="6LdggDobAAAAAKklhvgBZIWLkR11vNnVuCMOsWN6"></div>
-
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO ENVIAR -->                        
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" aria-label="Enviar Formulário">Enviar</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Rodapé -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <span class="copyright" aria-label="Desenvolvido por Lucas Baradel Marchiori">Desenvolvido por Lucas Baradel Marchiori.</span>
-          </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÕES REDES SOCIAIS -->                  
-          <div class="col-md-6">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO FACEBOOK -->          
-                <a href="https://www.facebook.com/lucasbmarchiori/" target="_blank" aria-label="Clique para acessar meu Facebook.">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO GITHUB -->                
-              <li class="list-inline-item">
-                <a href="https://github.com/Lucbm99" target="_blank"  aria-label="Clique para acessar meu Github.">
-                  <i class="fab fa-github"></i>
-                </a>
-              </li>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO INSTAGRAM -->       
-              <li class="list-inline-item">  
-                <a href="https://www.instagram.com/codehelp3/" target="_blank" aria-label="Clique para acessar o Instagram.">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO LINKEDIN -->                
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/dev-lucasbmarchiori/" target="_blank"  aria-label="Clique para acessar meu Linkedin.">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO MEDIUM -->
-              <li class="list-inline-item">
-                <a href="https://lucasbaradel.medium.com/" target="_blank"  aria-label="Clique para acessar meu Medium.">
-                  <i class="fab fa-medium"></i>
-                </a>
-              </li>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- BOTÃO YOUTUBE -->
-              <li class="list-inline-item">
-                <a href="https://www.youtube.com/channel/UCFWAu8TEfOzajZ5n5sni-oA" target="_blank"  aria-label="Clique para acessar meu canal do Youtube.">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </li>
-            </ul>
-        </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÕES REDES SOCIAIS -->                  
+        <div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO FACEBOOK -->          
+              <a href="https://www.facebook.com/lucasbmarchiori/" target="_blank" aria-label="Clique para acessar meu Facebook.">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO GITHUB -->                
+            <li class="list-inline-item">
+              <a href="https://github.com/Lucbm99" target="_blank"  aria-label="Clique para acessar meu Github.">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO INSTAGRAM -->       
+            <li class="list-inline-item">  
+              <a href="https://www.instagram.com/codehelp3/" target="_blank" aria-label="Clique para acessar o Instagram.">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO LINKEDIN -->                
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/dev-lucasbmarchiori/" target="_blank"  aria-label="Clique para acessar meu Linkedin.">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO MEDIUM -->
+            <li class="list-inline-item">
+              <a href="https://lucasbaradel.medium.com/" target="_blank"  aria-label="Clique para acessar meu Medium.">
+                <i class="fab fa-medium"></i>
+              </a>
+            </li>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- BOTÃO YOUTUBE -->
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCFWAu8TEfOzajZ5n5sni-oA" target="_blank"  aria-label="Clique para acessar meu canal do Youtube.">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
       </div>
     </div>
-    </footer>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modais do portifolio -->
-  <!-- Modal ADOVCACIA OAKLAND -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                    <h2 class="text-uppercase" aria-label="advocacia">Advocacia Oakland</h2>
-                    <p aria-label="Site de uma Advocacia, que descreve sua missão, seus valores, seus deveres e, sua busca que, sempre será pela verdade e pela justiça, sem corrupções.">Site de uma Advocacia, que descreve sua missão, seus valores, seus deveres e, sua busca que, sempre será pela verdade e pela justiça, sem corrupções.<br>
-                    <br>
-                    <strong aria-label="Tecnologias utilizadas: CSS3, HTML5, jQuery, Javascript.">Tecnologias utilizadas:</strong> CSS3, HTML5, jQuery, Javascript.</p>
-                    <a href="https://lucasbmarchiori.com.br/advocacia-oakland/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
-                    <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Times NFL -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  </div>
+  </footer>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modais do portifolio -->
+<!-- Modal ADOVCACIA OAKLAND -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -634,39 +623,11 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="Consumo de API - Bíblia">Consumo de API - Bíblia</h2><br>
-            <p aria-label="Projeto feito para estudos, utilizando Angular, é uma aplicação que consome uma API de uma bíblia e, pega partes do evangelho, de forma aleatória, de acordo com os apóstolos: Marcos, Matheus, João e Lucas.">Projeto feito para estudos, utilizando Angular, é uma aplicação que consome uma API de uma bíblia e, pega partes do evangelho, de forma aleatória, de acordo com os apóstolos: Marcos, Matheus, João e Lucas.<br>
-                <br>
-                    <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
-                <br>
-                <a href="https://evangelho-apostolos.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Modal Cafeteria -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Site Cafeteria Seattle">Site - Cafeteria Seattle</h2>
-                  <p aria-label="Site de uma cafeteria que exibe as opções de cafés que a mesma possui, bem como o espaço aconchegante que a mesma tem.">Site de uma cafeteria que exibe as opções de cafés que a mesma possui, bem como o espaço aconchegante que a mesma tem.<br>
+                  <h2 class="text-uppercase" aria-label="advocacia">Advocacia Oakland</h2>
+                  <p aria-label="Site de uma Advocacia, que descreve sua missão, seus valores, seus deveres e, sua busca que, sempre será pela verdade e pela justiça, sem corrupções.">Site de uma Advocacia, que descreve sua missão, seus valores, seus deveres e, sua busca que, sempre será pela verdade e pela justiça, sem corrupções.<br>
                   <br>
-                  <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, Javascript.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, Javascript.<br>
-                  <br>
-                  <a href="https://lucasbmarchiori.com.br/cafeteria-seattle/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
+                  <strong aria-label="Tecnologias utilizadas: CSS3, HTML5, jQuery, Javascript.">Tecnologias utilizadas:</strong> CSS3, HTML5, jQuery, Javascript.</p>
+                  <a href="https://lucasbmarchiori.com.br/advocacia-oakland/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
                   <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
               </div>
             </div>
@@ -675,9 +636,94 @@
       </div>
     </div>
   </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Calculadora -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Times NFL -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Consumo de API - Bíblia">Consumo de API - Bíblia</h2><br>
+          <p aria-label="Projeto feito para estudos, utilizando Angular, é uma aplicação que consome uma API de uma bíblia e, pega partes do evangelho, de forma aleatória, de acordo com os apóstolos: Marcos, Matheus, João e Lucas.">Projeto feito para estudos, utilizando Angular, é uma aplicação que consome uma API de uma bíblia e, pega partes do evangelho, de forma aleatória, de acordo com os apóstolos: Marcos, Matheus, João e Lucas.<br>
+              <br>
+                  <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
+              <br>
+              <a href="https://evangelho-apostolos.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-------------------------------------------------------------------------------------------------------->
+<!--Modal Cafeteria -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Site Cafeteria Seattle">Site - Cafeteria Seattle</h2>
+                <p aria-label="Site de uma cafeteria que exibe as opções de cafés que a mesma possui, bem como o espaço aconchegante que a mesma tem.">Site de uma cafeteria que exibe as opções de cafés que a mesma possui, bem como o espaço aconchegante que a mesma tem.<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, Javascript.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, Javascript.<br>
+                <br>
+                <a href="https://lucasbmarchiori.com.br/cafeteria-seattle/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Calculadora -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Calculadora">Calculadora</h2>
+                <p aria-label="Para fins de estudo, foi feita uma calculadora utilizando ReactJS. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto. 
+                ">Para fins de estudo, foi feita uma calculadora utilizando ReactJS. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto.<br>
+                <br>
+                <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+      <a href="https://github.com/Lucbm99/Calculadora-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+              <a href="https://calculadora-react-js-theta.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+      <a href="https://youtu.be/DKQczqid7ww" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+      <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Calculadora IMC -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -689,14 +735,295 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Calculadora">Calculadora</h2>
-                  <p aria-label="Para fins de estudo, foi feita uma calculadora utilizando ReactJS. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto. 
-                  ">Para fins de estudo, foi feita uma calculadora utilizando ReactJS. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto.<br>
+                  <h2 class="text-uppercase" aria-label="Calculadora IMC">Calculadora IMC</h2>
+                  <p aria-label="Calculadora de IMC feita em ReactJS, para fins de estudo.">Calculadora de IMC feita em ReactJS, para fins de estudo.<br>
                   <br>
                   <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-        <a href="https://github.com/Lucbm99/Calculadora-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                <a href="https://calculadora-react-js-theta.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-        <a href="https://youtu.be/DKQczqid7ww" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+        <a href="https://github.com/Lucbm99/Calculadora-IMC-React" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+                <a href="https://calculadoraimc-lucbm99.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+        <a href="https://youtu.be/KRaYl8ZKKB8" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+        <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-------------------------------------------------------------------------------------------------------->
+ <!-- Modal Calculadora -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Calculadora">Calculadora - Figuras Geométricas</h2>
+                <p aria-label="Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros. 
+                ">Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros.<br>
+                <br>
+                <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+      <a href="https://github.com/Lucbm99/FigurasGeometricas-Calculadora" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+              <a href="https://figuras-geometricas-calculadora-lucbm99.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+      <a href="https://youtu.be/i_vV-OoOzfg" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+      <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Ilera Saúde -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Site - Ilera Saúde">Site - Ilera Saúde</h2>
+                <p aria-label="Site de uma organização que tem como visão Ser um centro de medicina tradicional que possa fomentar novas iniciativas para o uso e preservação dos saberes ancestrais na saúde.">Site de uma organização que tem como visão Ser um centro de medicina tradicional que possa fomentar novas iniciativas para o uso e preservação dos saberes ancestrais na saúde.<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br><br>
+                <a href="https://ilerasaude.com.br" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!--Modal Jokenpo -->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Jogo Jokenpô">Jogo Jokenpô</h2>
+                <p aria-label="Jogo pedra, papel e tesoura, para o usuário selecionar um dos objetos do jogo e o computador sortear um deles, de forma aleatória.">Jogo pedra, papel e tesoura, para o usuário selecionar um dos objetos do jogo e o computador sortear um deles, de forma aleatória.<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: CSS3, HTML5, Javascript.">Tecnologias utilizadas:</strong> CSS3, HTML5, Javascript.<br>
+                <br>
+                <a href="https://lucasbmarchiori.com.br/jokenpo/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Livia Bel -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Site - Livia Bel">Site - Livia Bel</h2>
+      <p aria-label="Site criado para exposição de trabalhos artesanais de costura.">Site criado para exposição de trabalhos artesanais de costura.<br>
+                <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br><br>
+                <br>
+                <a href="https://liviabel.com" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
+        <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Marvel -->
+  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Consumo de API - Marvel">Consumo de API - Marvel</h2>
+                <p aria-label="Página web que exibe detalhes de alguns personagens da Marvel, bem como seus eventos. Dados foram disponiblizados em uma modal, consumindo a API da Marvel.">Página web que exibe detalhes de alguns personagens da Marvel, bem como seus eventos. Dados foram disponiblizados em uma modal, consumindo a API da Marvel.<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: Angular">Tecnologias utilizadas:</strong> Angular<br><br>
+                <a href="https://marvel-api-flax.vercel.app/" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
+                <a href="https://youtu.be/2IQYFd3lJSA" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+        <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Kalejados -->
+<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Site Os Kalejados">Site - Os Kalejados</h2>
+                <p aria-label="Site de uma organização que realiza passeios, eventos de andar de bicicleta, promovendo o bem estar da população.">Site de uma organização que realiza passeios, eventos de andar de bicicleta, promovendo o bem estar da população.<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br><br>
+                <a href="https://oskalejados.com.br" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal PADARIA -->
+  <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase" aria-label="Padaria Nashville">Padaria Nashville</h2><br>
+                <p aria-label="Site de uma padaria que cóntém alguns produtos com seus respectivos preços.
+                  O cliente pode optar por guardar os produtos em um carrinho, disponível no site.">Site de uma padaria que cóntém alguns produtos com seus respectivos preços.<br>
+                O cliente pode optar por guardar os produtos em um carrinho, disponível no site.<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: CSS3, HTML5, jQuery, Javascript.">Tecnologias utilizadas:</strong> CSS3, HTML5, jQuery, JavaScript.</p>
+                <a href="https://lucasbmarchiori.com.br/padaria-nashville/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
+                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Buscador de CEPs -->
+  <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                  <h2 class="text-uppercase" aria-label="Pesquisador de endereços">Pesquisador de endereços</h2>
+                  <p aria-label="Aplicação feita para consumo de uma API de CEPs, para fins de estudo. O endereço é puxado de forma automática, quando o CEP é digitado (rua, bairro, cidade e estado).">Aplicação feita para consumo de uma API de CEPs, para fins de estudo. <br>O endereço é puxado de forma automática, quando o CEP é digitado (rua, bairro, cidade e estado).<br>
+                  <br>
+                  <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
+        <a href="https://github.com/Lucbm99/ConsumoAPI-CEP" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+                <a href="https://consulta-cep-ten.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+        <a href="https://youtu.be/lMnkA7T_D3I" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+        <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal PET SHOP -->
+  <!--<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">-->
+  <!--  <div class="modal-dialog">-->
+  <!--    <div class="modal-content">-->
+  <!--      <div class="close-modal" data-dismiss="modal">-->
+  <!--        <div class="lr">-->
+  <!--          <div class="rl"></div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--      <div class="container">-->
+  <!--        <div class="row">-->
+  <!--          <div class="col-lg-8 mx-auto">-->
+  <!--            <div class="modal-body">-->
+  <!--              <h2 class="text-uppercase" aria-label="Pet Shop Miami">Pet Shop Miami</h2><br>-->
+  <!--              <p aria-label="Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.">Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.<br>-->
+  <!--              <br>-->
+  <!--              <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas: </strong>Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br>-->
+  <!--              <br>-->
+  <!--              <a href="https://lucasbmarchiori.com.br/pet-shop/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>-->
+  <!--              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>-->
+  <!--            </div>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</div>-->
+<!-------------------------------------------------------------------------------------------------------->
+  <!-- Modal Placas Mercosul -->
+  <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                  <h2 class="text-uppercase" aria-label="Placas Mercosul - Gerador">Placas Mercosul - Gerador</h2>
+                  <p aria-label="Interface que realiza a captura de dados aleatórios para montar uma placa que contenha o formato do Mercosul. (Brasil)">Interface que realiza a captura de dados aleatórios para montar uma placa que contenha o formato do Mercosul. (Brasil)<br>
+                  <br>
+                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+        <a href="https://github.com/Lucbm99/GeradorDePlacasMercosul" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+                <a href="https://placas-mercosul.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+        <a href="https://youtu.be/vJ5i0PKNG_o" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
         <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
               </div>
             </div>
@@ -706,318 +1033,7 @@
     </div>
   </div>
   <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Calculadora IMC -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                    <h2 class="text-uppercase" aria-label="Calculadora IMC">Calculadora IMC</h2>
-                    <p aria-label="Calculadora de IMC feita em ReactJS, para fins de estudo.">Calculadora de IMC feita em ReactJS, para fins de estudo.<br>
-                    <br>
-                    <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-          <a href="https://github.com/Lucbm99/Calculadora-IMC-React" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                  <a href="https://calculadoraimc-lucbm99.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-          <a href="https://youtu.be/KRaYl8ZKKB8" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-          <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   <!-------------------------------------------------------------------------------------------------------->
-   <!-- Modal Calculadora -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Calculadora">Calculadora - Figuras Geométricas</h2>
-                  <p aria-label="Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros. 
-                  ">Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros.<br>
-                  <br>
-                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-        <a href="https://github.com/Lucbm99/FigurasGeometricas-Calculadora" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                <a href="https://figuras-geometricas-calculadora-lucbm99.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-        <a href="https://youtu.be/i_vV-OoOzfg" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-        <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-	<!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Ilera Saúde -->
-  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Site - Ilera Saúde">Site - Ilera Saúde</h2>
-                  <p aria-label="Site de uma organização que tem como visão Ser um centro de medicina tradicional que possa fomentar novas iniciativas para o uso e preservação dos saberes ancestrais na saúde.">Site de uma organização que tem como visão Ser um centro de medicina tradicional que possa fomentar novas iniciativas para o uso e preservação dos saberes ancestrais na saúde.<br>
-                  <br>
-                  <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br><br>
-                  <a href="https://ilerasaude.com.br" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!--Modal Jokenpo -->
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Jogo Jokenpô">Jogo Jokenpô</h2>
-                  <p aria-label="Jogo pedra, papel e tesoura, para o usuário selecionar um dos objetos do jogo e o computador sortear um deles, de forma aleatória.">Jogo pedra, papel e tesoura, para o usuário selecionar um dos objetos do jogo e o computador sortear um deles, de forma aleatória.<br>
-                  <br>
-                  <strong aria-label="Tecnologias utilizadas: CSS3, HTML5, Javascript.">Tecnologias utilizadas:</strong> CSS3, HTML5, Javascript.<br>
-                  <br>
-                  <a href="https://lucasbmarchiori.com.br/jokenpo/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Livia Bel -->
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Site - Livia Bel">Site - Livia Bel</h2>
-				<p aria-label="Site criado para exposição de trabalhos artesanais de costura.">Site criado para exposição de trabalhos artesanais de costura.<br>
-                  <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br><br>
-                  <br>
-                  <a href="https://liviabel.com" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
-				  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>    
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Marvel -->
-    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Consumo de API - Marvel">Consumo de API - Marvel</h2>
-                  <p aria-label="Página web que exibe detalhes de alguns personagens da Marvel, bem como seus eventos. Dados foram disponiblizados em uma modal, consumindo a API da Marvel.">Página web que exibe detalhes de alguns personagens da Marvel, bem como seus eventos. Dados foram disponiblizados em uma modal, consumindo a API da Marvel.<br>
-                  <br>
-                  <strong aria-label="Tecnologias utilizadas: Angular">Tecnologias utilizadas:</strong> Angular<br><br>
-                  <a href="https://marvel-api-flax.vercel.app/" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
-                  <a href="https://youtu.be/2IQYFd3lJSA" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-				  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Kalejados -->
-  <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Site Os Kalejados">Site - Os Kalejados</h2>
-                  <p aria-label="Site de uma organização que realiza passeios, eventos de andar de bicicleta, promovendo o bem estar da população.">Site de uma organização que realiza passeios, eventos de andar de bicicleta, promovendo o bem estar da população.<br>
-                  <br>
-                  <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas:</strong> Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br><br>
-                  <a href="https://oskalejados.com.br" target="_blank" aria-label="Clique para acessar a aplicação">Clique para acessar a aplicação</a><br>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal PADARIA -->
-    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2 class="text-uppercase" aria-label="Padaria Nashville">Padaria Nashville</h2><br>
-                  <p aria-label="Site de uma padaria que cóntém alguns produtos com seus respectivos preços.
-                    O cliente pode optar por guardar os produtos em um carrinho, disponível no site.">Site de uma padaria que cóntém alguns produtos com seus respectivos preços.<br>
-                  O cliente pode optar por guardar os produtos em um carrinho, disponível no site.<br>
-                  <br>
-                  <strong aria-label="Tecnologias utilizadas: CSS3, HTML5, jQuery, Javascript.">Tecnologias utilizadas:</strong> CSS3, HTML5, jQuery, JavaScript.</p>
-                  <a href="https://lucasbmarchiori.com.br/padaria-nashville/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-	<!-------------------------------------------------------------------------------------------------------->
-	<!-- Modal Buscador de CEPs -->
-    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                    <h2 class="text-uppercase" aria-label="Pesquisador de endereços">Pesquisador de endereços</h2>
-                    <p aria-label="Aplicação feita para consumo de uma API de CEPs, para fins de estudo. O endereço é puxado de forma automática, quando o CEP é digitado (rua, bairro, cidade e estado).">Aplicação feita para consumo de uma API de CEPs, para fins de estudo. <br>O endereço é puxado de forma automática, quando o CEP é digitado (rua, bairro, cidade e estado).<br>
-                    <br>
-                    <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
-          <a href="https://github.com/Lucbm99/ConsumoAPI-CEP" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                  <a href="https://consulta-cep-ten.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-          <a href="https://youtu.be/lMnkA7T_D3I" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-          <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal PET SHOP -->
-    <!--<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">-->
-    <!--  <div class="modal-dialog">-->
-    <!--    <div class="modal-content">-->
-    <!--      <div class="close-modal" data-dismiss="modal">-->
-    <!--        <div class="lr">-->
-    <!--          <div class="rl"></div>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--      <div class="container">-->
-    <!--        <div class="row">-->
-    <!--          <div class="col-lg-8 mx-auto">-->
-    <!--            <div class="modal-body">-->
-    <!--              <h2 class="text-uppercase" aria-label="Pet Shop Miami">Pet Shop Miami</h2><br>-->
-    <!--              <p aria-label="Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.">Site de um pet shop que, possui seus respectivos serviços e, algumas dicas para quem possui um animalzinho de estimação em casa.<br>-->
-    <!--              <br>-->
-    <!--              <strong aria-label="Tecnologias utilizadas: Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.">Tecnologias utilizadas: </strong>Bootstrap, CSS3, HTML5, jQuery, JavaScript, PHP, MySQL, WordPress.<br>-->
-    <!--              <br>-->
-    <!--              <a href="https://lucasbmarchiori.com.br/pet-shop/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>-->
-    <!--              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--  </div>-->
-    <!--</div>-->
-	<!-------------------------------------------------------------------------------------------------------->
-    <!-- Modal Placas Mercosul -->
-    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                    <h2 class="text-uppercase" aria-label="Placas Mercosul - Gerador">Placas Mercosul - Gerador</h2>
-                    <p aria-label="Interface que realiza a captura de dados aleatórios para montar uma placa que contenha o formato do Mercosul. (Brasil)">Interface que realiza a captura de dados aleatórios para montar uma placa que contenha o formato do Mercosul. (Brasil)<br>
-                    <br>
-                    <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-          <a href="https://github.com/Lucbm99/GeradorDePlacasMercosul" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                  <a href="https://placas-mercosul.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-          <a href="https://youtu.be/vJ5i0PKNG_o" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-          <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal sorveteria -->
+  <!-- Modal receitas -->
   <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -1030,46 +1046,13 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="Banco de dados - Sorveteria">Banco de Dados - Sorveteria</h2><br>
-                <p aria-label="Clicando no link abaixo, você terá acesso ao Google Drive e, nele, terão os seguintes arquivos:">Clicando no link abaixo, você terá acesso ao Google Drive e, nele, terão os seguintes arquivos:</p>
-                    <li aria-label="dump_sorveteria.sql, que é a base de dados feita por mim, para fins de estudo;">dump_sorveteria.sql, que é a base de dados feita por mim, para fins de estudo;</li>
-                    <li aria-label="um arquivo em Word com algumas consultas elaboradas por mim, como exercícios de fixação;">um arquivo em Word com algumas consultas elaboradas por mim, como exercícios de fixação;</li>
-                    <li aria-label="um arquivo em Word com as respostas das consultas elaboradas, caso haja alguma dúvida.">um arquivo em Word com as respostas das consultas elaboradas, caso haja alguma dúvida.</li>
-                <br>
-                <strong aria-label="Tecnologias utilizadas: MySQL">Tecnologias utilizadas: </strong>MySQL.<br>
-                <br>
-                <a href="https://drive.google.com/drive/folders/1UtyJpXojVnt8dYa8dnQwv429L4qCV92T?usp=sharing" target="_blank" aria-label="Clique aqui para acessar o banco de dados.">Clique aqui para acessar o banco de dados.</a><br></p>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Soscity -->
-  <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="Aplicativo - SOS CITY">	Aplicativo - SOS CITY</h2><br>
-                  <p aria-label="Aplicativo feito para o trabalho de conclusão de curso de minha faculdade, que tem a finalidade de ajudar a população na resolução de problemas urbanos">Aplicativo feito para o trabalho de conclusão de curso de minha faculdade, que tem a finalidade de ajudar a população na resolução de problemas urbanos<br>
+                  <h2 class="text-uppercase" aria-label="Consumo de API - Receitas">Consumo de API - Receitas</h2>
+                  <p aria-label="Aplicação para fins de estudos que consome uma API de receitas culinárias, de diversos tipos.">Aplicação para fins de estudos que consome uma API de receitas culinárias, <br> de diversos tipos.<br>
                   <br>
-                  <strong aria-label="Tecnologias utilizadas: CodeIgniter, Dart, Flutter, PHP, MySQL.">Tecnologias utilizadas: </strong>CodeIgniter, Dart, Flutter, PHP, MySQL.<br>
-                  <br>
-          <a href="https://gitlab.com/Lbm99/soscity" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                  <a href="https://youtu.be/HuPkjrYb6Tk" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-          <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+                  <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
+                  <a href="https://github.com/Lucbm99/Receitas" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+                  <a href="https://receitas-pi6v.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
               </div>
             </div>
           </div>
@@ -1077,133 +1060,194 @@
       </div>
     </div>
   </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Times NFL -->
-  <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="Lista de times - NFL">Lista de times - NFL</h2><br>
-            <p aria-label="Projeto feito para estudos, utilizando Angular, para consumir os dados da API da NFL (Liga de Futebol Americano), para consultar dados dos times da liga de futebol americano.">Projeto feito para estudos, utilizando Angular, para consumir os dados da API da NFL (Liga de Futebol Americano), para consultar dados dos times da liga de futebol americano.<br>
-                <br>
-                    <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
-                <br>
-                <a href=" https://times-nfl.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-              </div>
-            </div>
-          </div>
+ <!-------------------------------------------------------------------------------------------------------->
+<!-- Modal sorveteria -->
+<div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
         </div>
       </div>
-    </div>
-  </div>  
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal ToDo List -->
-  <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="ToDo List - Lista de tarefas">ToDo List - Lista de tarefas</h2><br>
-            <p aria-label="Projeto feito para estudos, utilizando ReactJS, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.">Projeto feito para estudos, utilizando ReactJS, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.<br>
-                <br>
-                    <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-                <br>
-                <a href="https://github.com/Lucbm99/ToDo-List-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                <a href=" https://todolist-silk.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-                <a href="https://youtu.be/7PxHvZ_q9uI" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal truco counter -->
-  <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="Placar - Jogo de Truco">Placar - Jogo de Truco</h2><br>
-            <p aria-label="Projeto feito para estudos, utilizando ReactJS, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.">Projeto feito para estudos, utilizando ReactJS, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.<br>
-            <br>
-                    <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-                <br>
-          <a href="https://github.com/Lucbm99/TrucoCounter" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-          <a href="https://truco-lucbm99.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-          <a href="https://youtu.be/TFcGidtVUOk" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <!-- Modal Combustível - Calculadora -->
-  <div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2 class="text-uppercase" aria-label="Verificador - Combustível">Verificador - Combustível</h2><br>
-            <p aria-label="Calculadora feita para comparar os preços de etanol e gasolina e ver qual é o mais vantajoso para abastecer, com base no preço do litro fornecido pelo usuário ou usuária.">Calculadora feita para comparar os preços de etanol e gasolina e ver qual é o mais vantajoso para abastecer, com base no preço do litro fornecido pelo usuário ou usuária.<br>
-            <br>
-            <strong aria-label="Tecnologias utilizadas: ReactJS">Tecnologias utilizadas: </strong>ReactJS<br>
-                <br>
-                <a href="https://github.com/Lucbm99/Calculo-Etanol-Gasolina" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-                <a href="https://calculo-combustivel.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-                <a href="https://youtu.be/acU8wXm1Vfc" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-------------------------------------------------------------------------------------------------------->
-  <div id="google_translate_element" class="boxTradutor"></div>
-    <a href="javascript:trocarIdioma('en')"><img alt="ingles" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:50px;border-radius:50%;right: 20px;" src="united-kingdom.png"></a>
-    <a href="javascript:trocarIdioma('pt')"><img alt="portugues" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:10px;border-radius:50%;right: 20px;" src="brazil.png"></a>
-    <!-- Alterar o src para o link onde esta a imagem da bandeira do idioma no seu servidor -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Banco de dados - Sorveteria">Banco de Dados - Sorveteria</h2><br>
+              <p aria-label="Clicando no link abaixo, você terá acesso ao Google Drive e, nele, terão os seguintes arquivos:">Clicando no link abaixo, você terá acesso ao Google Drive e, nele, terão os seguintes arquivos:</p>
+                  <li aria-label="dump_sorveteria.sql, que é a base de dados feita por mim, para fins de estudo;">dump_sorveteria.sql, que é a base de dados feita por mim, para fins de estudo;</li>
+                  <li aria-label="um arquivo em Word com algumas consultas elaboradas por mim, como exercícios de fixação;">um arquivo em Word com algumas consultas elaboradas por mim, como exercícios de fixação;</li>
+                  <li aria-label="um arquivo em Word com as respostas das consultas elaboradas, caso haja alguma dúvida.">um arquivo em Word com as respostas das consultas elaboradas, caso haja alguma dúvida.</li>
+              <br>
+              <strong aria-label="Tecnologias utilizadas: MySQL">Tecnologias utilizadas: </strong>MySQL.<br>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1UtyJpXojVnt8dYa8dnQwv429L4qCV92T?usp=sharing" target="_blank" aria-label="Clique aqui para acessar o banco de dados.">Clique aqui para acessar o banco de dados.</a><br></p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
 
-  <!-- Arquivos JavaScript -->
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
-    <script src="jquery.easing.min.js"></script>
-    <script src="script.js"></script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <!-------------------------------------------------------------------------------------------------------->
-      </body>
-  </html>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Soscity -->
+<div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Aplicativo - SOS CITY">	Aplicativo - SOS CITY</h2><br>
+                <p aria-label="Aplicativo feito para o trabalho de conclusão de curso de minha faculdade, que tem a finalidade de ajudar a população na resolução de problemas urbanos">Aplicativo feito para o trabalho de conclusão de curso de minha faculdade, que tem a finalidade de ajudar a população na resolução de problemas urbanos<br>
+                <br>
+                <strong aria-label="Tecnologias utilizadas: CodeIgniter, Dart, Flutter, PHP, MySQL.">Tecnologias utilizadas: </strong>CodeIgniter, Dart, Flutter, PHP, MySQL.<br>
+                <br>
+        <a href="https://gitlab.com/Lbm99/soscity" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+                <a href="https://youtu.be/HuPkjrYb6Tk" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+        <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Times NFL -->
+<div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Lista de times - NFL">Lista de times - NFL</h2><br>
+          <p aria-label="Projeto feito para estudos, utilizando Angular, para consumir os dados da API da NFL (Liga de Futebol Americano), para consultar dados dos times da liga de futebol americano.">Projeto feito para estudos, utilizando Angular, para consumir os dados da API da NFL (Liga de Futebol Americano), para consultar dados dos times da liga de futebol americano.<br>
+              <br>
+                  <strong aria-label="Tecnologia utilizada: Angular.">Tecnologia utilizada:</strong> Angular.</p>
+              <br>
+              <a href=" https://times-nfl.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal ToDo List -->
+<div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="ToDo List - Lista de tarefas">ToDo List - Lista de tarefas</h2><br>
+          <p aria-label="Projeto feito para estudos, utilizando ReactJS, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.">Projeto feito para estudos, utilizando ReactJS, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.<br>
+              <br>
+                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+              <br>
+              <a href="https://github.com/Lucbm99/ToDo-List-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+              <a href=" https://todolist-silk.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+              <a href="https://youtu.be/7PxHvZ_q9uI" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal truco counter -->
+<div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Placar - Jogo de Truco">Placar - Jogo de Truco</h2><br>
+          <p aria-label="Projeto feito para estudos, utilizando ReactJS, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.">Projeto feito para estudos, utilizando ReactJS, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.<br>
+          <br>
+                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+              <br>
+        <a href="https://github.com/Lucbm99/TrucoCounter" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+        <a href="https://truco-lucbm99.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+        <a href="https://youtu.be/TFcGidtVUOk" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Combustível - Calculadora -->
+<div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Verificador - Combustível">Verificador - Combustível</h2><br>
+          <p aria-label="Calculadora feita para comparar os preços de etanol e gasolina e ver qual é o mais vantajoso para abastecer, com base no preço do litro fornecido pelo usuário ou usuária.">Calculadora feita para comparar os preços de etanol e gasolina e ver qual é o mais vantajoso para abastecer, com base no preço do litro fornecido pelo usuário ou usuária.<br>
+          <br>
+          <strong aria-label="Tecnologias utilizadas: ReactJS">Tecnologias utilizadas: </strong>ReactJS<br>
+              <br>
+              <a href="https://github.com/Lucbm99/Calculo-Etanol-Gasolina" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+              <a href="https://calculo-combustivel.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+              <a href="https://youtu.be/acU8wXm1Vfc" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<div id="google_translate_element" class="boxTradutor"></div>
+  <a href="javascript:trocarIdioma('en')"><img alt="ingles" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:50px;border-radius:50%;right: 20px;" src="united-kingdom.png"></a>
+  <a href="javascript:trocarIdioma('pt')"><img alt="portugues" style="opacity:1;line-height:38px;font-size:22px;text-decoration:none;font-weight:bold;position:fixed;display:block;text-align:center;transition:all .2s linear;z-index:99;width:48px;height:48px;bottom:10px;border-radius:50%;right: 20px;" src="brazil.png"></a>
+  <!-- Alterar o src para o link onde esta a imagem da bandeira do idioma no seu servidor -->
+
+<!-- Arquivos JavaScript -->
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="jquery.easing.min.js"></script>
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-------------------------------------------------------------------------------------------------------->
+    </body>
+</html>
