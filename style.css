@@ -38,10 +38,21 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+.g-recaptcha {
+    margin-left: 35%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .g-recaptcha {
+        margin-left: 3%;
+    }
+}
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
   }
+      .g-recaptcha {
+        margin-left: 28%;
+    }
 }
 ::-moz-selection {
   background: #fed136;
@@ -126,6 +137,9 @@ img::-moz-selection {
 /*******************************/
 /*RESPONSIVO*/
 @media (min-width: 992px) {
+    .g-recaptcha {
+        margin-left: 36.5%;
+    }
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -138,11 +152,11 @@ img::-moz-selection {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    color: #fff;
+    color: #111;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
-    color: #fff;
+    color: #111;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
@@ -156,12 +170,13 @@ img::-moz-selection {
 }
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("banner_inicial.jpg");
-  background-repeat: no-repeat;
+  background-color: #ADD8E6;
+  /* color: white; */
+  /* background-image: url("../_images/banner_inicial.jpg"); */
+  /* background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 header.masthead .intro-text {
   padding-top: 150px;
@@ -450,3 +465,8 @@ li a:hover{
 .goog-te-banner-frame {
     display: none !important;
 }
+@media (min-width: 1440px) {
+    .g-recaptcha {
+        margin-left: 36%;
+    }
+}  
