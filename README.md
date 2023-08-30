@@ -41,13 +41,16 @@ Ao abrir o terminal, é necessário digitar a URL recém-copiada do GitHub, acom
 Após isso, teclar ENTER.
 
 Ao exibir o status abaixo, indica que o processo foi feito corretamente: 
+
 ![image](https://user-images.githubusercontent.com/45500959/111052650-8b4dca00-843b-11eb-8943-b36ad090a6bb.png)
 
 
 Os arquivos estarão na pasta recém criada: 
+
 ![image](https://user-images.githubusercontent.com/45500959/111052654-96085f00-843b-11eb-8698-e7fd06c5b502.png)
 
-E, ao clicar no arquivo index.html, o arquivo abrirá no seu navegador, com o site do portfólio. 
+E, ao clicar no arquivo index.html, o arquivo abrirá no seu navegador, com o site do portfólio.
+
 ![image](https://github.com/Lucbm99/Portfolio-Pessoal/assets/45500959/e18d6939-945c-43fe-9a4f-1b590a3a8724)
 
 
