@@ -48,7 +48,7 @@ Os arquivos estarão na pasta recém criada:
 ![image](https://user-images.githubusercontent.com/45500959/111052654-96085f00-843b-11eb-8698-e7fd06c5b502.png)
 
 E, ao clicar no arquivo index.html, o arquivo abrirá no seu navegador, com o site do portfólio. 
-![image](https://user-images.githubusercontent.com/45500959/111052660-a02a5d80-843b-11eb-9017-2ee3102cb1ee.png)
+![image](https://github.com/Lucbm99/Portfolio-Pessoal/assets/45500959/e18d6939-945c-43fe-9a4f-1b590a3a8724)
 
 
 ## 📦 Status do Site
@@ -70,11 +70,6 @@ Consulte o arquivo LICENSE.md, para maiores detalhes.
 
 ## ✒️ Autores
 Site feito por mim - [Lucbm99](https://github.com/Lucbm99)
-
-
-## 🎁 Agradecimentos
-* Agradeço a Deus pela oportunidade de fazer um site sobre mim, para exibir meus trabalhos.
-
 
 ---
 ⌨️ com ❤️ por [Lucas Baradel](https://github.com/Lucbm99) 😊
