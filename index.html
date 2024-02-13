@@ -50,7 +50,7 @@
             <a class="nav-link js-scroll-trigger" href="#services" aria-label="Início">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/newsletters/7142509923950657536/" target="_blank" aria-label="Newsletter">Newsletter</a>
+            <a class="nav-link js-scroll-trigger" href="#livro" aria-label="Livro">Livro</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio" aria-label="portifolio">Portfolio</a>
@@ -58,6 +58,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact"  aria-label="Contato">Contato</a>
           </li>          
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/newsletters/7142509923950657536/" target="_blank" aria-label="Newsletter">Newsletter</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -125,6 +128,21 @@
               </div>
             </div>
           </div>
+      </section>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Seção livro -->
+      <section class="bg-info page-section" id="livro" aria-label="Livro">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3 class="section-subheading text-white texto-livro" aria-label="">No começo da minha caminhada em programação, senti falta de um guia para dizer para qual caminho <br> eu devia seguir na vasta área de programação. <br/><br/> Logo, em um cenário tecnológico em rápida evolução, é fácil se sentir sobrecarregado com o surgimento <br/> de novas tecnologias e frameworks sendo lançados todos os dias. <br/>
+                Se você quer se aprofundar na programação, mas não sabe por onde começar, este livro é a sua bússola. <br/><br/>Confira insights práticos, dicas e caminhos para navegar pelo vasto terreno da programação. <br/>
+                Este guia oferece conselhos valiosos para qualquer pessoa com curiosidade em aprender tecnologia, <br/>principalmente as que são consideradas leigas no assunto de programação. <br/> <br/>
+                Baixe o livro agora mesmo, de forma gratuita e, escale a montanha da proficiência em programação com confiança! </h3>
+                <button class="btn btn-danger btn-xl text-uppercase" onclick="downloadPDFLivro()" aria-label="Clique aqui para baixar o livro!">Baixar livro (Em breve)</a>
+            </div>
+          </div>
+        </div>
       </section>
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Seção dos meus trabalhos(Portfólio) -->
@@ -378,9 +396,24 @@
         </div>
       </div>
 <!-------------------------------------------------------------------------------------------------------->  
+<!-- Portfólio Spotify  -->         
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal17" aria-label="Abrir modal Clone Spotify">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="spotify.jpg" alt="Imagem da interface do aplicativo Spotify">
+          </a>
+          <div class="portfolio-caption">
+            <h4 aria-label="Spotify Clone">Spotify Clone</h4>
+          </div>
+        </div>
+<!--------------------------------------------------------------------------------------------------------><!-------------------------------------------------------------------------------------------------------->  
 <!-- Portfólio pesquisador de temperaturas -->         
         <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal17" aria-label="Abrir modal pesquisar temperaturas">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal18" aria-label="Abrir modal pesquisar temperaturas">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -395,7 +428,7 @@
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Portfólio Times NFL -->
   <div class="col-md-3 col-sm-6 portfolio-item">
-    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal18" aria-label="Abrir modal Times NFL">
+    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal19" aria-label="Abrir modal Times NFL">
       <div class="portfolio-hover">
         <div class="portfolio-hover-content">
           <i class="fas fa-plus fa-3x"></i>
@@ -410,7 +443,7 @@
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Portfólio ToDo List -->
   <div class="col-md-3 col-sm-6 portfolio-item">
-    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal19" aria-label="Abrir modal lista de tarefas">
+    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal20" aria-label="Abrir modal lista de tarefas">
       <div class="portfolio-hover">
         <div class="portfolio-hover-content">
           <i class="fas fa-plus fa-3x"></i>
@@ -425,7 +458,7 @@
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Portfólio Truco Counter -->
       <div class="col-md-3 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal20" aria-label="Abrir modal Truco">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal21" aria-label="Abrir modal Truco">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fas fa-plus fa-3x"></i>
@@ -440,7 +473,7 @@
   <!-------------------------------------------------------------------------------------------------------->
   <!-- Portfólio - Verificador combustível -->
         <div class="col-md-3 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal21" aria-label="Abrir modal Verificador Combustível">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal22" aria-label="Abrir modal Verificador Combustível">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -668,10 +701,10 @@
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
                 <h2 class="text-uppercase" aria-label="Calculadora">Calculadora</h2>
-                <p aria-label="Para fins de estudo, foi feita uma calculadora utilizando ReactJS. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto. 
-                ">Para fins de estudo, foi feita uma calculadora utilizando ReactJS. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto.<br>
+                <p aria-label="Para fins de estudo, foi feita uma calculadora utilizando React.js. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto. 
+                ">Para fins de estudo, foi feita uma calculadora utilizando React.js. As operações de soma, subtração, divisão, porcentagem e multiplicação são feitas somente com dois números, por enquanto.<br>
                 <br>
-                <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+                <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> React.js.</p>
       <a href="https://github.com/Lucbm99/Calculadora-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
               <a href="https://calculadora-react-js-theta.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
       <a href="https://youtu.be/DKQczqid7ww" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
@@ -698,9 +731,9 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                   <h2 class="text-uppercase" aria-label="Calculadora IMC">Calculadora IMC</h2>
-                  <p aria-label="Calculadora do índice de massa corporal (IMC) feita em ReactJS, para fins de estudo.">Calculadora do índice de massa corporal (IMC) feita em ReactJS, para fins de estudo.<br>
+                  <p aria-label="Calculadora do índice de massa corporal (IMC) feita em React.js, para fins de estudo.">Calculadora do índice de massa corporal (IMC) feita em React.js, para fins de estudo.<br>
                   <br>
-                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+                  <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> React.js.</p>
         <a href="https://github.com/Lucbm99/Calculadora-IMC-React" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
                 <a href="https://calculadoraimc-lucbm99.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
         <a href="https://youtu.be/KRaYl8ZKKB8" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
@@ -730,7 +763,7 @@
                 <p aria-label="Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros. 
                 ">Calculadora de figuras geométricas planas, feita para fins de estudo da biblioteca React.js. Ela calcula áreas como triângulo, quadrado, retângulo, dentre outros.<br>
                 <br>
-                <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+                <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> React.js.</p>
       <a href="https://github.com/Lucbm99/FigurasGeometricas-Calculadora" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
               <a href="https://figuras-geometricas-calculadora-lucbm99.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
       <a href="https://youtu.be/i_vV-OoOzfg" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
@@ -927,7 +960,7 @@
                   <h2 class="text-uppercase" aria-label="Placas Mercosul - Gerador">Placas Mercosul - Gerador</h2>
                   <p aria-label="Interface que realiza a captura de dados aleatórios para montar uma placa que contenha o formato do Mercosul. (Brasil)">Interface que realiza a captura de dados aleatórios para montar uma placa que contenha o formato do Mercosul. (Brasil)<br>
                   <br>
-                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+                  <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> React.js.</p>
         <a href="https://github.com/Lucbm99/GeradorDePlacasMercosul" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
                 <a href="https://placas-mercosul.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
         <a href="https://youtu.be/vJ5i0PKNG_o" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>
@@ -1029,8 +1062,38 @@
   </div>
 </div>
 <!-------------------------------------------------------------------------------------------------------->
+<!-- Modal Spotify -->
+<div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="Spotify - Clone">Spotify - Clone</h2><br>
+          <p aria-label="Aplicação para fins de estudos da imersão Front End, organizada pela Alura. A aplicação desenvolvida foi um clone de uma página do Spotify. O código feito é utilizando a biblioteca React.js.">Aplicação para fins de estudos da imersão Front End, organizada pela Alura. A aplicação desenvolvida foi um clone de uma página do Spotify. O código feito é utilizando a biblioteca React.js.<br>
+              <br>
+                  <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> HTML, CSS, JavaScript, Node.js, React.js.</p>
+              <br>
+              <a href="https://github.com/Lucbm99/Imersao-Alura-Spotify-React" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação em React.js">Clique aqui para acessar o código fonte da aplicação em React.js</a><br></p>
+              <a href="https://github.com/Lucbm99/Imersao-Alura-Spotify" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação em HTML, CSS e JavaScript">Clique aqui para acessar o código fonte da aplicação em HTML, CSS e JavaScript</a><br></p>
+              <a href="https://spotify-imersao-alura-pi.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+			  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
 <!-- Modal Buscador de Temperaturas -->
-  <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -1059,7 +1122,7 @@
   </div>
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Modal Times NFL -->
-<div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -1086,36 +1149,6 @@
 </div>  
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Modal ToDo List -->
-<div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase" aria-label="ToDo List - Lista de tarefas">ToDo List - Lista de tarefas</h2><br>
-          <p aria-label="Projeto feito para estudos, utilizando ReactJS, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.">Projeto feito para estudos, utilizando ReactJS, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.<br>
-              <br>
-                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
-              <br>
-              <a href="https://github.com/Lucbm99/ToDo-List-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
-              <a href=" https://todolist-silk.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
-              <a href="https://youtu.be/7PxHvZ_q9uI" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>              
-			  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-------------------------------------------------------------------------------------------------------->
-<!-- Modal truco counter -->
 <div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -1128,10 +1161,40 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
+              <h2 class="text-uppercase" aria-label="ToDo List - Lista de tarefas">ToDo List - Lista de tarefas</h2><br>
+          <p aria-label="Projeto feito para estudos, utilizando React.js, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.">Projeto feito para estudos, utilizando React.js, para uma lista de tarefas, cuja você pode adicionar e riscar afazeres na mesma.<br>
+              <br>
+                  <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> React.js.</p>
+              <br>
+              <a href="https://github.com/Lucbm99/ToDo-List-ReactJS" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
+              <a href="https://todolist-silk.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
+              <a href="https://youtu.be/7PxHvZ_q9uI" target="_blank" aria-label="Clique aqui para acessar o vídeo demo da aplicação">Clique aqui para acessar o vídeo demo da aplicação</a><br></p>              
+			  <button class="btn btn-primary" data-dismiss="modal" type="button" aria-label="Fechar">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Modal truco counter -->
+<div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
               <h2 class="text-uppercase" aria-label="Placar - Jogo de Truco">Placar - Jogo de Truco</h2><br>
-          <p aria-label="Projeto feito para estudos, utilizando ReactJS, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.">Projeto feito para estudos, utilizando ReactJS, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.<br>
+          <p aria-label="Projeto feito para estudos, utilizando React.js, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.">Projeto feito para estudos, utilizando React.js, para um placar de truco mineiro e paulista, que contabiliza a pontuação e a vitória entre dois jogadores.<br>
           <br>
-                  <strong aria-label="Tecnologia utilizada: ReactJS.">Tecnologia utilizada:</strong> ReactJS.</p>
+                  <strong aria-label="Tecnologia utilizada: React.js.">Tecnologia utilizada:</strong> React.js.</p>
               <br>
         <a href="https://github.com/Lucbm99/TrucoCounter" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
         <a href="https://truco-lucbm99.vercel.app" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
@@ -1145,7 +1208,7 @@
 </div>
 <!-------------------------------------------------------------------------------------------------------->
 <!-- Modal Combustível - Calculadora -->
-<div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -1160,7 +1223,7 @@
               <h2 class="text-uppercase" aria-label="Verificador - Combustível">Verificador - Combustível</h2><br>
           <p aria-label="Calculadora feita para comparar os preços de etanol e gasolina e ver qual é o mais vantajoso para abastecer, com base no preço do litro fornecido pelo usuário ou usuária.">Calculadora feita para comparar os preços de etanol e gasolina e ver qual é o mais vantajoso para abastecer, com base no preço do litro fornecido pelo usuário ou usuária.<br>
           <br>
-          <strong aria-label="Tecnologias utilizadas: ReactJS">Tecnologias utilizadas: </strong>ReactJS<br>
+          <strong aria-label="Tecnologias utilizadas: React.js">Tecnologia utilizada: </strong>React.js<br>
               <br>
               <a href="https://github.com/Lucbm99/Calculo-Etanol-Gasolina" target="_blank" aria-label="Clique aqui para acessar o código fonte da aplicação">Clique aqui para acessar o código fonte da aplicação</a><br></p>
               <a href="https://calculo-combustivel.vercel.app/" target="_blank" aria-label="Clique aqui para acessar a aplicação">Clique aqui para acessar a aplicação</a><br></p>
