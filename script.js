@@ -79,3 +79,30 @@ function trocarIdioma(sigla) {
         changeEvent(comboGoogleTradutor);//Dispara a troca
     }
 }
+
+function downloadPDFLivro() {
+  // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
+  var fileUrl = 'livro/pdf_teste.pdf';
+  
+  // Create an invisible anchor element
+  var a = document.createElement('a');
+  a.style.display = 'none';
+
+  // Set the download attribute with the desired filename
+  a.download = 'Livro-guia-para-iniciantes-na-programacao.pdf';
+
+  // Set the href attribute to the file URL
+  a.href = fileUrl;
+
+  // Set the target attribute to '_blank' to open in a new tab and trigger the download
+  a.target = '_blank';
+
+  // Append the anchor to the body
+  document.body.appendChild(a);
+
+  // Trigger a click event on the anchor element
+  a.click();
+
+  // Remove the anchor from the body
+  document.body.removeChild(a);
+}
