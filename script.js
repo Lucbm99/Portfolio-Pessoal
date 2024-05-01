@@ -82,7 +82,7 @@ function trocarIdioma(sigla) {
 
 function downloadPDFLivro() {
   // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
-  var fileUrl = 'livro/pdf_teste.pdf';
+  var fileUrl = 'https://drive.google.com/file/d/1YgBJXs6rx8AVecN262PZTnWOTHehuFi7/view?usp=sharing';
   
   // Create an invisible anchor element
   var a = document.createElement('a');
